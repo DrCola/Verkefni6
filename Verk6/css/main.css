@@ -24,5 +24,6 @@ div#slider figure {
 }
 
 body {
-  background-image: url("https://thelibrarycsgo.files.wordpress.com/2012/09/csgo-2012-09-01-11-28-34-45.jpg");
+  background-image: url("../img/background.jpg");
+  background-size: 180%;
 }
