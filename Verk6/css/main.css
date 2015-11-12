@@ -31,3 +31,8 @@ body {
   background-image: url("../img/background.jpg");
   background-size: 180%;
 }
+
+.yes img a
+{
+  padding-right: 1em;
+}
