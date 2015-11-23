@@ -15,37 +15,8 @@
 }
 
 body { margin: 0; } 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; 
-}
 
 body {
   background-image: url("../img/background.jpg");
   background-size: 180%;
-}
-
-.yes img
-{
-  padding-bottom:1em;
-}
-
-
-.slidecont
-{
-border: 1px;
-border-color: blue;
-}
-
-.stuff
-{
-border: 1px;
-border-color:red;
 }

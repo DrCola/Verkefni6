@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter-Strike</title>
     <link rel="stylesheet" href="css/foundation.css">
+            <link rel="stylesheet" href="css/js-image-slider.css">
+            <script src="js/js-image-slider.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/maincs16.css">
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -38,7 +40,7 @@
                 <li><label>Previous games</label></li>
                 <li><a href="cscz.html">Counter-Strike: Condition Zero</a></li>
                 <li><a href="cssource.html">Counter-Strike: Source</a></li>
-                <li><a href="main.html">Counter-Strike: Global Offensive</a></li>
+                <li><a href="index.html">Counter-Strike: Global Offensive</a></li>
               </ul>
             </li>
 
@@ -74,18 +76,18 @@
          
 
         <div class="row">
-        <div class="large-5 columns">
+        <div class="large-12 columns">
+                <div id="sliderFrame">
 <div id="slider">
-<figure>
 <img src="img/cs16_mynd1.jpg" alt="">
 <img src="img/cs16_mynd2.jpg" alt="">
 <img src="img/cs16_mynd3.jpg" alt="">
 <img src="img/cs16_mynd4.jpg" alt="">
-<img src="img/cs16_mynd5.jpg" alt="img/csgo_mynd6.jpg">
-</figure>
+<img src="img/cs16_mynd5.jpg" alt="">
 </div>
 </div>
-        <div class="large-5 columns">
+</div>
+        <div class="large-12 columns">
           <h4>Counter-Strike</h4>
           Counter-Strike is a first-person shooter video game developed by Valve Corporation. It was initially developed and released as a Half-Life modification by Minh "Gooseman" Le and Jess "Cliffe" Cliffe in 1999, before Le and Cliffe were hired and the game's intellectual property acquired. Counter-Strike was first released by Valve on the Microsoft Windows platform in 2000. The game later spawned a franchise, and is the first installment in the Counter-Strike series. Several remakes and Ports of Counter-Strike have been released on the Xbox console, as well as OS X and Linux. It is sometimes referred to as Counter-Strike 1.6 to distinguish it from other titles of the series, 1.6 being the final software update the game received.
 
@@ -127,11 +129,15 @@
           <img border="0" alt="1.6" src="img/csczthumb.jpg" width="200" height="150">
           <a href="cssource.html">
           <img border="0" alt="1.6" src="img/cssthumb.jpg" width="200" height="150">
-          <a href="main.html">
+          <a href="index.html">
           <img border="0" alt="1.6" src="img/csgothumb.jpg" width="200" height="150">
         </div>
         </div>
         </div>
-  
+          <script src="js/vendor/jquery.js"></script>
+                <script src="js/foundation.min.js"></script>
+        <script>
+        $(document).foundation();
+        </script>
 
 </body></html>

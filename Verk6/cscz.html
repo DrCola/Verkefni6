@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter-Strike</title>
     <link rel="stylesheet" href="css/foundation.css">
+                <link rel="stylesheet" href="css/js-image-slider.css">
+            <script src="js/js-image-slider.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/maincz.css">
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -38,7 +40,7 @@
                 <li><label>Previous games</label></li>
                 <li><a href="cs16.html">Counter-Strike</a></li>
                 <li><a href="cssource.html">Counter-Strike: Source</a></li>
-                <li><a href="main">Counter-Strike: Global Offensive</a></li>
+                <li><a href="index.html">Counter-Strike: Global Offensive</a></li>
               </ul>
             </li>
 
@@ -74,18 +76,18 @@
          
 
         <div class="row">
-        <div class="large-5 columns">
+        <div class="large-12 columns">
+<div id="sliderFrame">
 <div id="slider">
-<figure>
 <img src="img/cscz_mynd01.jpg" alt="">
 <img src="img/cscz_mynd02.jpg" alt="">
 <img src="img/cscz_mynd03.jpg" alt="">
 <img src="img/cscz_mynd04.jpg" alt="">
-<img src="img/cscz_mynd05.jpg" alt="img/csgo_mynd6.jpg">
-</figure>
+<img src="img/cscz_mynd05.jpg" alt="">
 </div>
 </div>
-        <div class="large-5 columns">
+</div>
+        <div class="large-12 columns">
           <h4>Counter-Strike: Condition Zero</h4>
           Counter-Strike: Condition Zero is a multiplayer video game and the follow-up to Counter-Strike. The game was released in 2004 using the GoldSrc engine. Condition Zero features a multiplayer mode, which features updated character models, textures, maps and other graphical tweaks. Unlike other Counter-Strike games, Condition Zero also contains a single-player mission pack with the player playing as counter-terrorist alongside bots. The player unlocks maps and more effective bot teammates as he passes certain requirements for each map while playing as a counter terrorist. These requirements include targets such as "kill 3 enemies with a Bullpup" or "win a round in 60 seconds". Counter-Strike bots are a prominent part of Condition Zero gameplay.
 
@@ -127,9 +129,14 @@
           <img border="0" alt="1.6" src="img/csczthumb.jpg" width="200" height="150">
           <a href="cssource.html">
           <img border="0" alt="1.6" src="img/cssthumb.jpg" width="200" height="150">
-          <a href="main.html">
+          <a href="index.html">
           <img border="0" alt="1.6" src="img/csgothumb.jpg" width="200" height="150">
         </div>
         </div>
         </div>
+                <script src="js/vendor/jquery.js"></script>
+                <script src="js/foundation.min.js"></script>
+        <script>
+        $(document).foundation();
+        </script>
 </body></html>
