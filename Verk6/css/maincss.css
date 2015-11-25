@@ -17,5 +17,9 @@
 body { margin: 0; } 
 body {
   background-image: url("../img/cssbackground.jpg");
-  background-size: 180%;
+  background-size: 200%;
+}
+
+.yes {
+  padding-left: 4.5em;
 }
